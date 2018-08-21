@@ -29,7 +29,7 @@ class Worker extends Thread {
 	
 	public void run() {
 		for(int i=0;i <100;i++) {
-			System.out.println(Thread.currentThread().getName() + " got value :" + sequence.getNext());
+			System.out.println(Thread.currentThread().getName() + " got value  :" + sequence.getNext());
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
